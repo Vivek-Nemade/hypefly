@@ -1,0 +1,209 @@
+{
+    "sneakers":[
+        {
+          "id": 1,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1090-desktop_thumbnail.webp",
+          "prodName": "Nike Dunk Low Retro \"Panda",
+          "salePrice": "from Rs. 11,999",
+          "MRP": "Rs. 17,999"
+        },
+        {
+            "id": 2,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2784-desktop_thumbnail.webp",
+          "prodName": "Yeezy Slides 'Slate Grey'",
+          "salePrice": "from Rs. 8,999",
+          "MRP": "Rs. 13,999"
+        },
+        {
+            "id": 3,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1648-desktop_thumbnail.webp",
+          "prodName": "Air Jordan 1 x Marvel \"Spider Man Across the Spider-Verse / Next Chapter ",
+          "salePrice": "from Rs. 18,999",
+          "MRP": "Rs. 34,999"
+        },
+        {
+            "id": 4,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2261-desktop_thumbnail.webp",
+          "prodName": "Air Jordan 1 Retro High OG 'UNC Toe'",
+          "salePrice": "from Rs. 19,999",
+          "MRP": "Rs. 34,999"
+        },
+        {
+            "id": 5,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1733-desktop_thumbnail.webp",
+          "prodName": "Yeezy Boost 350 V2 'Space Ash'",
+          "salePrice": "from Rs. 16,999",
+          "MRP": "Rs. 19,999"
+        },
+        {
+            "id": 6,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1672-desktop_thumbnail.webp",
+          "prodName": "Yeezy Boost 350 V2 'Carbon Beluga'",
+          "salePrice": "from Rs. 27,999",
+          "MRP": "Rs. 36,999"
+        },
+        {
+            "id": 7,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/393-desktop_thumbnail.webp",
+          "prodName": "Yeezy Boost 350 V2 'Onyx'",
+          "salePrice": "from Rs. 27,999",
+          "MRP": "Rs. 39,999"
+        },
+        {
+            "id": 8,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1704-desktop_thumbnail.webp",
+          "prodName": "Yeezy Slides 'Dark Onyx'",
+          "salePrice": "from Rs. 9,999",
+          "MRP": "Rs. 11,499"
+        },
+        {
+            "id": 9,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/495-desktop_thumbnail.webp",
+          "prodName": "Yeezy Boost 350 V2 'Bone'",
+          "salePrice": "from Rs. 25,999",
+          "MRP": "Rs. 39,999"
+        },
+        {
+            "id": 10,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1866-desktop_thumbnail.webp",
+          "prodName": "Nike Dunk Low 'Chicago Split'",
+          "salePrice": "from Rs. 15,999",
+          "MRP": "Rs. 19,999"
+        },
+        {
+            "id": 11,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1515-desktop_thumbnail.webp",
+          "prodName": "Air Jordan 1 Low 'Alternate Bred Toe'",
+          "salePrice": "from Rs. 10,999",
+          "MRP": "Rs. 14,999"
+        },
+        {
+            "id": 12,
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/979-desktop_thumbnail.webp",
+          "prodName": "Yeezy Slide 'Pure'",
+          "salePrice": "from Rs. 16,999",
+          "MRP": "Rs. 20,999"
+        }
+      ],
+      "shoes":[
+        {
+            "css-1so0zht href": "https://hypefly.co.in/products/the-58-dragon-tee",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2513-desktop_thumbnail.webp",
+            "prodName": "THE 58 DRAGON  TEE",
+            "salePrice": "from Rs. 1,758"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/break-the-simulatiomn-tee",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2505-desktop_thumbnail.webp",
+            "prodName": "BREAK THE SIMULATION TEE",
+            "salePrice": "from Rs. 1,458"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/unreal-tee",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2509-desktop_thumbnail.webp",
+            "prodName": "UNREAL TEE",
+            "salePrice": "from Rs. 1,758"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/the-phoenix-t-shirt",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2501-desktop_thumbnail.webp",
+            "prodName": "THE PHOENIX TEE",
+            "salePrice": "from Rs. 1,758"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/why-you-buggin-tee",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2517-desktop_thumbnail.webp",
+            "prodName": "WHY YOU BUGGIN TEE",
+            "salePrice": "from Rs. 1,758"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/think-about-it-tee",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2521-desktop_thumbnail.webp",
+            "prodName": "THINK ABOUT IT TEE",
+            "salePrice": "from Rs. 1,758"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/too-much-at-stake-tee",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2525-desktop_thumbnail.webp",
+            "prodName": "TOO MUCH AT STAKE TEE",
+            "salePrice": "from Rs. 1,458"
+          },
+          {
+            "css-1so0zht href": "https://hypefly.co.in/products/drew-mascot-hoodie-cream",
+            "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/681-desktop_thumbnail.webp",
+            "prodName": "Drew House Mascot Hoodie \"Cream",
+            "salePrice": "from Rs. 23,999"
+          }   
+      ],
+      "accesories":[
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/flash-pendant",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2049-desktop_thumbnail.webp",
+          "prodName": "Flash Pendant",
+          "salePrice": "from Rs. 2,999",
+          "css-1vizuq": "",
+          "prodName 3": ""
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/cactus-jack-pendant",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/2007-desktop_thumbnail.webp",
+          "prodName": "Cactus Jack Pendant",
+          "salePrice": "from Rs. 2,999",
+          "css-1vizuq": "",
+          "prodName 3": ""
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/tennis-stud-earring",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1981-desktop_thumbnail.webp",
+          "prodName": "Tennis Stud Earring",
+          "salePrice": "from Rs. 2,499",
+          "css-1vizuq": "",
+          "prodName 3": ""
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/micro-clustered-diamond-earrings",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1966-desktop_thumbnail.webp",
+          "prodName": "Micro Clustered Diamond Earrings",
+          "salePrice": "from Rs. 2,499",
+          "css-1vizuq": "",
+          "prodName 3": ""
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/swatch-x-omega-bioceramic-moonswatch-mission-to-jupiter",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1298-desktop_thumbnail.webp",
+          "prodName": "Swatch x Omega Bioceramic Moonswatch Mission to Jupiter",
+          "salePrice": "from Rs. 27,999",
+          "css-1vizuq": "SALE",
+          "prodName 3": "Rs. 33,999"
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/6mm-clean-cuban-chain",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1930-desktop_thumbnail.webp",
+          "prodName": "6mm Clean Cuban Chain",
+          "salePrice": "from Rs. 2,499",
+          "css-1vizuq": "",
+          "prodName 3": ""
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/luna-dreamsicle-rope-laces",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1824-desktop_thumbnail.webp",
+          "prodName": "Luna Dreamsicle Rope Laces",
+          "salePrice": "from Rs. 499",
+          "css-1vizuq": "",
+          "prodName 3": ""
+        },
+        {
+          "css-1so0zht href": "https://hypefly.co.in/products/swatch-x-omega-bioceramic-moonswatch-mission-to-venus",
+          "Imgurl": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/products/desktop_thumbnail/1309-desktop_thumbnail.webp",
+          "prodName": "Swatch x Omega Bioceramic Moonswatch Mission to Venus",
+          "salePrice": "from Rs. 26,999",
+          "css-1vizuq": "SALE",
+          "prodName 3": "Rs. 32,999"
+        }
+      ]
+
+}
+
+
+
+  

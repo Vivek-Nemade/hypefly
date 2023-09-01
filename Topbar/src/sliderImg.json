@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "url": "https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/carousel_images/SEND_THE_LOVE.jpg"
+    },
+    {
+        "id":2,
+        "url":"https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/carousel_images/YEEZY_MANIA_1.jpg"
+    },
+    {
+        "id":3,
+        "url":"https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/carousel_images/PANDA_DUNK_ALL_TIME.jpg"
+    },
+    {
+        "id":"4",
+        "url":"https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/carousel_images/UNC_TOE_AJ1_1.jpg"
+    },
+    {
+        "id":"5",
+        "url":"https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/carousel_images/58_SHOP_NOW.jpg"
+    }
+]

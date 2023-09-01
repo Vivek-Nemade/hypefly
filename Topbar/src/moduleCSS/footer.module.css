@@ -1,0 +1,28 @@
+.topDiv{
+    background-color: #1a202c;
+   width: 1518px;
+   /* width: 100%; */
+}
+
+.mainDiv{
+    /* style={{display:'grid', width:"90%", margin:"auto",backgroundColor:"#1a202c",paddingTop:"40px", gridTemplateColumns:"2fr 1fr 1fr 1fr"}} */
+    display: grid;
+    width:90%;
+    margin:auto;
+    background-color: #1a202c;
+    padding-top: 40px;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+}
+.mainDiv>div img{
+    width: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainDiv{
+        grid-template-columns: repeat(2,3fr);
+        /* width:60% */
+    }
+    .mainDiv>div img{
+        width: 150px;
+    }
+}

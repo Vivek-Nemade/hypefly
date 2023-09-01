@@ -1,0 +1,39 @@
+.topDiv{
+    width:1518px;
+    margin: auto;
+}
+
+.topDiv>div{
+    width: 90%;
+    margin: auto;
+}
+.prodDiv{
+    display:grid;
+    grid-Template-Columns:repeat(4,1fr);
+    gap:10px;
+}
+.prod{
+    margin-top: 10px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .prodDiv{
+        display:grid;
+        grid-Template-Columns:repeat(3,1fr);
+        gap:10px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .prodDiv{
+        display:grid;
+        grid-Template-Columns:repeat(2,1fr);
+        gap:10px;
+    }
+    .prod{
+        margin-top: 10px;
+    }
+  }

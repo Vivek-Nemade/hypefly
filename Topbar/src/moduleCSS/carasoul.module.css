@@ -1,0 +1,36 @@
+.button__bar li button {
+    border: none;
+  background: rgb(148, 139, 139);
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 8px;
+  width: 25px;
+  border-radius: 3px;
+}
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+  }
+  .button__bar {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0;
+    /* background: rgba(255, 255, 255, 0.3); */
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .button__bar :global(li.slick-active) button {
+    background-color: rgb(0, 0, 0);
+  }
+
+  @media screen and (max-width: 768px) {
+    
+}
