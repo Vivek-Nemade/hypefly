@@ -1,9 +1,10 @@
 import React from 'react'
-import {AiOutlineMail,AiOutlineInstagram,AiOutlineShoppingCart} from 'react-icons/ai'
+import {AiOutlineMail,AiOutlineInstagram,AiOutlineShoppingCart,AiOutlineUser} from 'react-icons/ai'
 import {BsFacebook,} from 'react-icons/bs'
 // import {FaCircleUser} from 'react-icons/fa'
 import {BiMailSend} from 'react-icons/bi'
 import styles from  '../moduleCSS/footer.module.css'
+import { background } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
@@ -47,17 +48,17 @@ const Footer = () => {
                 <div>
                     <p>BLOG</p>
                     <div>
-                        <input type="email" name="" id="" />
-                        <button>
-                            <BiMailSend/>
+                        <input style={{color:"rgba(0, 0, 0, 0.06)", backgroundColor:"#1a202c"}} type="email" name="" id="" placeholder='Your email address' />
+                        <button style={{marginLeft:"10px"}}>
+                            <BiMailSend color='white'/>
                         </button>
                     </div>
                 </div>
                 <div>
-                    <p>ACCOUNT</p>
-                    <div>
-                        {/* <FaCircleUser/> */}
-                        <AiOutlineShoppingCart/>
+                    <p style={{color:"#4299E1", fontSize:"18px",marginTop:'20px',textAlign:'left',marginBottom:'10px'}}>ACCOUNT</p>
+                    <div style={{display:"flex"}}>
+                        <AiOutlineUser color='white' size={22}/>
+                        <AiOutlineShoppingCart color='white' size={22}/>
                     </div>
                 </div>
             </div>

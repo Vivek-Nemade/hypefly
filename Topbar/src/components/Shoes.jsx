@@ -6,25 +6,25 @@ import styles from  '../moduleCSS/shoes.module.css'
 const Shoes = () => {
   return (
     <div className={styles.topDiv}>
-        <div>
-            <p style={{fontSize:"32px", fontWeight:"700",fontFamily:"Avenir,Manrope, sans-serif",paddingTop:"60px", paddingBottom:"30px"}}>SHOES</p>
+        <div style={{display:"flex", justifyContent:"center",alignItems:'center'}}>
+            <p style={{fontSize:"32px", fontWeight:"700",fontFamily:"Avenir,Manrope, sans-serif",paddingTop:"60px", paddingBottom:"30px"}}>STREETWEAR</p>
         </div>
         <div className={styles.prodDiv}>
             {
                 data.shoes.map((el)=>(
-                    <div key={el.id} className={styles.prod}>
-                        <div style={{display:"flex",justifyContent:"space-between",width:"276px",margin:"auto",marginTop:"5px"}}>
+                    <div  key={el.id} className={styles.prod}>
+                        <div className={styles.prod} >
                             <AiOutlineHeart size={20}/>
-                            <p style={{backgroundColor:"rgb(229, 62, 62)", color:"white",padding:"0 7.5px",fontSize:"16px", fontWeight:"600"}}>SALE</p>
+                            <p >SALE</p>
                         </div>
-                        <div style={{display:"flex",justifyContent:'center',alignItems:"center"}}>
-                            <img style={{width:"276px", height:"276px"}} src={el.Imgurl} alt={el.prodName} />
+                        <div className={styles.prod2div} >
+                            <img src={el.Imgurl} alt={el.prodName} />
                         </div>
-                        <p style={{fontSize:"16px",width:"276px",margin:"auto", fontFamily:"Avenir,Manrope, sans-serif", fontWeight:"400"}}>{el.prodName}</p>
-                        {/* <div style={{display:'flex',width:"276px",margin:"auto",justifyContent:"center",gap:"10px",alignItems:"center",marginTop:"10px", marginBottom:"35px"}}> */}
-                            <p style={{fontSize:"14px",paddingBottom:"20px",textAlign:"center",fontFamily:"Avenir,Manrope, sans-serif", fontWeight:"600",color:"#718096"}}>{el.salePrice}</p>
-                            {/* <p style={{fontSize:"12px",fontFamily:"Avenir,Manrope, sans-serif", fontWeight:"600",color:"#C53030",textDecoration:"line-through"}}>{el.MRP}</p> */}
-                        {/* </div> */}
+                        <p className={styles.prodname}  >{el.prodName}</p>
+                         <div className={styles.prod3div} >
+                            <p className={styles.prod3mrp} >{el.salePrice}</p>
+                             {/* <p style={{fontSize:"12px",fontFamily:"Avenir,Manrope, sans-serif", fontWeight:"600",color:"#C53030",textDecoration:"line-through"}}>{el.MRP}</p> */}
+                         </div> 
                        
                     </div>
                 ))

@@ -1,7 +1,7 @@
 .topDiv{
     background-color: #1a202c;
-   width: 1518px;
    /* width: 100%; */
+   padding-bottom: 30px;
 }
 
 .mainDiv{
@@ -24,5 +24,13 @@
     }
     .mainDiv>div img{
         width: 150px;
+    }
+}
+
+@media screen  and (max-width: 420px) {
+    .mainDiv{
+        grid-template-columns: repeat(1,3fr);
+        /* width:60% */
+        margin-left: 30px;
     }
 }

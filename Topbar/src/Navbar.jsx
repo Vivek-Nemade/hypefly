@@ -5,7 +5,6 @@ import {
   Flex,
   Text,
   IconButton,
-  Button,
   Stack,
   Collapse,
   Icon,
@@ -13,7 +12,6 @@ import {
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
   Image,
 } from '@chakra-ui/react'
@@ -33,10 +31,10 @@ const Navbar = () => {
     const { isOpen, onToggle } = useDisclosure()
   return (
     <>
-    <Box bg={'black'} color={'white'} pt={2} pb={2} fontSize={"14px"} fontWeight={700}  w={"1518px"}>
-        SEND THE LOVE SALE IS LIVE! UPTO 60% OFF
+    <Box bg={'#1A202C'} color={'white'} pt={2} pb={2}  textAlign={"center"}>
+      <Text fontSize={"14px"} fontWeight={700}>YEEZY MANIA IS LIVE | FREE SHIPPING PAN INDIA</Text> 
     </Box>
-        <Box w={["1518px"]}  pt={"15px"} pb={"10px"} position="sticky" top={0}  bg={useColorModeValue('white', 'gray.800')} zIndex={1}>
+        <Box  m={"auto"}  pt={"15px"} pb={"10px"} position="sticky" top={0}  bg={useColorModeValue('white', 'gray.800')} zIndex={1}>
       <Flex
         w={"90%"} m={'auto'}
         bg={useColorModeValue('white', 'gray.800')}
@@ -51,7 +49,7 @@ const Navbar = () => {
         <Flex
           flex={{ base: 1, md: 'auto' }}
           ml={{ base: -2 }}
-          display={{ base: 'flex', md: 'none' }}>
+          display={{ base: 'flex', md: 'flex', lg:'flex', xl:'none' }}>
           <IconButton
             onClick={onToggle}
             icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />}
@@ -59,11 +57,11 @@ const Navbar = () => {
             aria-label={'Toggle Navigation'}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Box>
-                <Image w={["169px"]} h={["69px"]} src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/store_logo.webp" alt="hypefly"/>
+        <Flex flex={{ base: 1, md: 'auto' }} justify={{ base: 'center', md: 'start' }}>
+            <Box w={["164px"]} h={["69px"]}  display="flex" justifyContent="center"alignItems="center">
+                <Image w={["60%","80%","100%"]}  src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/store_logo.webp" alt="hypefly"/>
             </Box>
-          <Flex display={{ base: 'none', md: 'flex' }} ml={10} align={"center"}>
+          <Flex display={{ base: 'none', md: 'none',lg: 'none', xl: 'flex' }} ml={10} align={"center"}>
             <DesktopNav />
           </Flex>
         </Flex>
@@ -72,7 +70,7 @@ const Navbar = () => {
           flex={{ base: 1, md: 0 }}
           justify={'flex-end'}
           direction={'row'}
-          spacing={6}>
+          spacing={[4,6,6]}>
           <FiSearch/>
           <FiUser/>
           <AiOutlineHeart/>
@@ -98,7 +96,7 @@ const DesktopNav = () => {
 
   return (
     <Stack direction={'row'} spacing={6} align={"center"} ml={"100px"} >
-        <Box fontWeight={700}  _hover={{color:"#4299e1"}}>SEND THE LOVE</Box>
+        <Box fontWeight={700}  _hover={{color:"#4299e1"}}>YEEZY MANIA</Box>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -108,7 +106,8 @@ const DesktopNav = () => {
                 as="a"
                 p={2}
                 href={navItem.href ?? '#'}
-                fontSize={'1rem'}
+                // fontSize={'1rem'}
+                fontSize={{ base: "1rem", md: "0.8rem",lg: "1rem" }}
                 fontWeight={500}
                 color={linkColor}
                 _hover={{

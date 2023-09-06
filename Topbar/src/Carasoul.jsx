@@ -44,7 +44,7 @@ const Carasoul = () => {
         ]
       };
   return (
-    <div style={{ width:"1518px"}}>
+    <div >
          <div style={{width:"90%",margin:"auto",marginBottom:"25px",zIndex:"-7"}}>
     
             <Slider {...settings}>

@@ -7,12 +7,17 @@ import styles from '../moduleCSS/pictures.module.css'
 const Pictures = () => {
   return (
     <div className={styles.topDiv} >
-        <div style={{width:"90%",margin:"auto"}}>
-            <img src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/collection_01.webp" alt="abc" />
+        <div style={{margin:"auto"}}>
+            <img style={{width:"100%", height:"auto"}} src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/collection_01.webp" alt="abc" />
         </div>
         <div className={styles.picdiv} >
-            <img style={{width:"640px", height:"460px"}} src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/collection_02.webp" alt="" />
-            <img style={{width:"640px", height:"460px"}} src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/collection_03.webp" alt="" />
+            <div>
+              <img style={{width:"100%", height:"auto"}} src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/collection_02.webp" alt="" />
+            </div>
+            <div>
+                  <img style={{width:"100%", height:"auto"}}  src="https://hypefly-assets.s3.ap-south-1.amazonaws.com/media/defaults/collection_03.webp" alt="" />
+            </div>
+           
         </div>
         <div className={styles.pic} style={{display:"flex"}}>
             <div >

@@ -1,5 +1,5 @@
 .topDiv{
-    width: 1440px;
+    width: 90vw;
     margin: auto;
 }
 .pic{
@@ -8,19 +8,25 @@
     width: 90%;
     margin: auto;
     justify-content: space-around;
-   flex-direction: row;
-    
+    flex-direction: row;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
 .picdiv{
     /* width:"90%",margin:"auto",display:"flex", justifyContent:"space-between", marginTop:"20px" */
-    width: 90%;
+    width: 90vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    /* justify-content: center;
+    align-items: center;
+    justify-content: space-between; */
     margin-top: 20px;
+}
+.picdiv div{
+   
 }
 @media screen and (max-width: 768px) {
     .pic{
@@ -48,5 +54,12 @@
     }
     .prod{
         margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width:1230px){
+    .picdiv{
+        display: flex;
+        flex-direction: column;
     }
   }
